@@ -1,0 +1,250 @@
+{
+    "炒锅": [
+        {
+            "dish_id": "番茄炒蛋",
+            "profit": 28,
+            "sell_time": 12,
+            "unlock_level": 1,
+            "ingredients": {
+                "鸡蛋": 1,
+                "番茄": 4
+            }
+        },
+        {
+            "dish_id": "广椒土豆片",
+            "profit": 27,
+            "sell_time": 12,
+            "unlock_level": 1,
+            "ingredients": {
+                "葱": 1,
+                "辣椒": 1,
+                "土豆": 4
+            }
+        },
+        {
+            "dish_id": "辣子鸡",
+            "profit": 38,
+            "sell_time": 16,
+            "unlock_level": 2,
+            "ingredients": {
+                "辣椒": 1,
+                "禽肉": 3
+            }
+        },
+        {
+            "dish_id": "干煸肥肠",
+            "profit": 38,
+            "sell_time": 19,
+            "unlock_level": 2,
+            "ingredients": {
+                "肥肠": 3
+            }
+        },
+        {
+            "dish_id": "腰果虾仁",
+            "profit": 47,
+            "sell_time": 19,
+            "unlock_level": 3,
+            "ingredients": {
+                "虾仁": 2,
+                "腰果": 1
+            }
+        },
+        {
+            "dish_id": "炸醋肉",
+            "profit": 36,
+            "sell_time": 12,
+            "unlock_level": 3,
+            "ingredients": {
+                "兽肉": 3,
+                "面粉": 2
+            }
+        }
+    ],
+    "烤箱": [
+        {
+            "dish_id": "脆皮烤鸭",
+            "profit": 25,
+            "sell_time": 14,
+            "unlock_level": 1,
+            "ingredients": {
+                "葱": 1,
+                "禽肉": 2
+            }
+        },
+        {
+            "dish_id": "烤肉串",
+            "profit": 30,
+            "sell_time": 12,
+            "unlock_level": 1,
+            "ingredients": {
+                "兽肉": 1,
+                "禽肉": 2
+            }
+        },
+        {
+            "dish_id": "烤鱼",
+            "profit": 39,
+            "sell_time": 16,
+            "unlock_level": 2,
+            "ingredients": {
+                "葱": 1,
+                "辣椒": 2,
+                "鱼肉": 3
+            }
+        },
+        {
+            "dish_id": "明炉烤肉",
+            "profit": 39,
+            "sell_time": 18,
+            "unlock_level": 2,
+            "ingredients": {
+                "兽肉": 4,
+                "葱": 1
+            }
+        },
+        {
+            "dish_id": "雪花肉酥",
+            "profit": 44,
+            "sell_time": 19,
+            "unlock_level": 3,
+            "ingredients": {
+                "兽肉": 2,
+                "鸡蛋": 3
+            }
+        }
+    ],
+    "蒸笼": [
+        {
+            "dish_id": "芙蓉蛋",
+            "profit": 24,
+            "sell_time": 12,
+            "unlock_level": 1,
+            "ingredients": {
+                "鸡蛋": 4
+            }
+        },
+        {
+            "dish_id": "剁椒鱼头",
+            "profit": 24,
+            "sell_time": 14,
+            "unlock_level": 1,
+            "ingredients": {
+                "辣椒": 2,
+                "鱼肉": 2
+            }
+        },
+        {
+            "dish_id": "饺子",
+            "profit": 38,
+            "sell_time": 16,
+            "unlock_level": 2,
+            "ingredients": {
+                "兽肉": 1,
+                "饺子皮": 4
+            }
+        },
+        {
+            "dish_id": "梅菜扣肉",
+            "profit": 36,
+            "sell_time": 12,
+            "unlock_level": 2,
+            "ingredients": {
+                "兽肉": 3,
+                "新鲜蔬菜": 2
+            }
+        },
+        {
+            "dish_id": "西湖醋鱼",
+            "profit": 50,
+            "sell_time": 20,
+            "unlock_level": 3,
+            "ingredients": {
+                "葱": 1,
+                "鱼肉": 4
+            }
+        },
+        {
+            "dish_id": "虎咬猪",
+            "profit": 46,
+            "sell_time": 14,
+            "unlock_level": 3,
+            "ingredients": {
+                "兽肉": 4,
+                "面粉": 1
+            }
+        },
+        {
+            "dish_id": "烧肉粽",
+            "profit": 43,
+            "sell_time": 16,
+            "unlock_level": 3,
+            "ingredients": {
+                "鲍鱼": 1,
+                "香菇": 2,
+                "糯米": 1
+            }
+        }
+    ],
+    "煮锅": [
+        {
+            "dish_id": "水煮肉片",
+            "profit": 29,
+            "sell_time": 14,
+            "unlock_level": 1,
+            "ingredients": {
+                "兽肉": 2,
+                "新鲜蔬菜": 2
+            }
+        },
+        {
+            "dish_id": "红烧狮子头",
+            "profit": 26,
+            "sell_time": 12,
+            "unlock_level": 1,
+            "ingredients": {
+                "兽肉": 3
+            }
+        },
+        {
+            "dish_id": "麻婆豆腐",
+            "profit": 43,
+            "sell_time": 18,
+            "unlock_level": 2,
+            "ingredients": {
+                "兽肉": 1,
+                "豆腐": 3
+            }
+        },
+        {
+            "dish_id": "泡椒牛蛙",
+            "profit": 43,
+            "sell_time": 19,
+            "unlock_level": 2,
+            "ingredients": {
+                "辣椒": 1,
+                "牛蛙": 2
+            }
+        },
+        {
+            "dish_id": "毛血旺",
+            "profit": 50,
+            "sell_time": 19,
+            "unlock_level": 3,
+            "ingredients": {
+                "鸭血": 3,
+                "牛百叶": 1,
+                "毛肚": 1
+            }
+        },
+        {
+            "dish_id": "土笋冻",
+            "profit": 52,
+            "sell_time": 18,
+            "unlock_level": 3,
+            "ingredients": {
+                "星虫": 3
+            }
+        }
+    ]
+}

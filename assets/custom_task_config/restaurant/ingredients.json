@@ -1,0 +1,94 @@
+{
+    "葱": {
+        "shop_daily_limit": 100,
+        "shop_price": 1
+    },
+    "番茄": {
+        "shop_daily_limit": 100,
+        "shop_price": 3
+    },
+    "土豆": {
+        "shop_daily_limit": 100,
+        "shop_price": 3
+    },
+    "星虫": {
+        "shop_daily_limit": 100,
+        "shop_price": 8
+    },
+    "糯米": {
+        "shop_daily_limit": 200,
+        "shop_price": 2
+    },
+    "香菇": {
+        "shop_daily_limit": 200,
+        "shop_price": 3
+    },
+    "鲍鱼": {
+        "shop_daily_limit": 50,
+        "shop_price": 12
+    },
+    "面粉": {
+        "shop_daily_limit": 200,
+        "shop_price": 1
+    },
+    "饺子皮": {
+        "shop_daily_limit": 100,
+        "shop_price": 1
+    },
+    "虾仁": {
+        "shop_daily_limit": 100,
+        "shop_price": 6
+    },
+    "毛肚": {
+        "shop_daily_limit": 50,
+        "shop_price": 8
+    },
+    "牛蛙": {
+        "shop_daily_limit": 100,
+        "shop_price": 12
+    },
+    "兽肉": {
+        "shop_daily_limit": 400,
+        "shop_price": 5
+    },
+    "禽肉": {
+        "shop_daily_limit": 200,
+        "shop_price": 1
+    },
+    "鱼肉": {
+        "shop_daily_limit": 200,
+        "shop_price": 6
+    },
+    "肥肠": {
+        "shop_daily_limit": 100,
+        "shop_price": 1
+    },
+    "牛百叶": {
+        "shop_daily_limit": 50,
+        "shop_price": 8
+    },
+    "鸭血": {
+        "shop_daily_limit": 100,
+        "shop_price": 3
+    },
+    "新鲜蔬菜": {
+        "shop_daily_limit": 100,
+        "shop_price": 3
+    },
+    "腰果仁": {
+        "shop_daily_limit": 50,
+        "shop_price": 12
+    },
+    "辣椒": {
+        "shop_daily_limit": 200,
+        "shop_price": 1
+    },
+    "鸡蛋": {
+        "shop_daily_limit": 200,
+        "shop_price": 4
+    },
+    "豆腐": {
+        "shop_daily_limit": 100,
+        "shop_price": 6
+    }
+}
