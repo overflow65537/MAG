@@ -1,6 +1,7 @@
 # MAG
 
 基于 MAA_FrameWork 框架的 深空之眼 自动化小助手，主要功能集中在每日任务的自动化
+
 ~~自动战斗先等孩子把YOLO用明白了再做~~
 ## 叠甲
 1. 该项目是一个编程新手的第一个开源项目，可能包含以下要素：
@@ -35,7 +36,8 @@ PS：原本的命名想法是将MAA里的Arknights换成AetherGazer，结果发�
 1. 该脚本暂时只支持 **Windows**  ~~等孩子把多系统兼容整明白了再去兼容Mac和Linux~~
 2. 只支持模拟器端（最好为MuMu），暂不支持桌面
 3. **游园街·餐厅** 任务首次使用前，需要在 `custom_task_config\restaurant\player_status.json` 内配置玩家信息：`"level"`: 各个厨具的等级；`"menu_slots"`: 的菜品上架限制；`"warehouse_stock"`: 当前仓库的食材数量
-	==一定要配置！不然崩了别怪我==
+	
+	**一定要配置！不然崩了别怪我**
 
 ---
 ## 图形化界面
@@ -72,13 +74,19 @@ PS：原本的命名想法是将MAA里的Arknights换成AetherGazer，结果发�
 ### 开源库
 
 - [MaaFramework](https://github.com/MaaXYZ/MaaFramework)
+
 	基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition
+
 	本项目的开发框架
 - [MFW-PyQt6](https://github.com/overflow65537/MFW-PyQt6)
+
 	一个基于PySide6的MAAFramework图形化操作界面
+
 	本项目的前端界面
 - [MSBA](https://github.com/overflow65537/MAA_SnowBreak)
+
 	尘白禁区每日任务自动化 | Assistant For Snowbreak: Containment Zone
+
 	本项目的部分代码（[ScreenShot.py](https://github.com/Kazaorus/MAG/blob/main/assets/custom/action/ScreenShot.py)）的来源
 ### 开发者
 
