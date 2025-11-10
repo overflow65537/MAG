@@ -31,7 +31,7 @@
             }
         },
         "action": "Click",
-        "post_delay": 1000,
+        "post_delay": 2000,
         "next": [
             "确定购买体力"
         ]
@@ -52,6 +52,7 @@
             }
         },
         "action": "Click",
+        "post_delay": 2000,
         "next": [
             "购买体力",
             "直接返回主菜单"
@@ -72,7 +73,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_delay": 2000
     },
     "商店补给区": {
         "recognition": {
@@ -89,7 +91,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_delay": 2000
     },
     "进入商店": {
         "recognition": {
@@ -106,7 +109,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_delay": 2000
     },
     "确定购买体力": {
         "recognition": {

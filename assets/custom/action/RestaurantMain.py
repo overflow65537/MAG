@@ -118,7 +118,8 @@ class WarehouseScan(CustomAction):
                         "roi": warehouse_roi,
                         "expected": "^([\\u4e00-\\u9fa5]+|[1-9]\\d*)$"
                     }
-                }
+                },
+                "on_error": ["空白任务"]
             }
         })
         # 仓库翻页
@@ -418,7 +419,8 @@ class RestaurantMainProcess(CustomAction):
                                 "custom_action": "ShopPurchase",
                                 "custom_action_param": demands
                             }
-                        }
+                        },
+                        "on_error": ["返回上级菜单"]
                     }
                 })
 

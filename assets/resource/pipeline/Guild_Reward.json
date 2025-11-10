@@ -24,7 +24,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_delay": 2000
     },
     //以下是常规每日补给部分
     "矩阵补给": {
@@ -42,7 +43,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_delay": 2000
     },
     "领取矩阵补给": {
         "recognition": {
@@ -256,7 +258,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_delay": 2000
     },
     "领取公会任务奖励": {
         "recognition": {
