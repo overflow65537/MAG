@@ -2,6 +2,7 @@
 .idea/
 .vscode/
 .obsidian/
+REDEME.md
 *.swp
 
 # Dependencies
@@ -21,3 +22,6 @@ dist/
 
 # Log files
 *.log
+
+# others
+assets/custom/testassets/custom/test/

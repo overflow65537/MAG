@@ -144,7 +144,8 @@
                 "template": "通用操作/返回.png"
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_wait_freezes": 2000
     },
     "点击下方空白": {
         "action": {
