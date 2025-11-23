@@ -18,15 +18,25 @@
         "recognition": {
             "type": "OCR",
             "param": {
-                "roi": [6, 79, 99, 462],
-                "expected": ["对策", "协议"]
+                "roi": [
+                    6,
+                    79,
+                    99,
+                    462
+                ],
+                "expected": [
+                    "对策",
+                    "协议"
+                ]
             }
         },
         "action": {
             "type": "Click"
         },
         "post_wait_freezes": 1000,
-        "next": ["点击下方空白"]
+        "next": [
+            "点击下方空白"
+        ]
     },
     "进入对策协议任务界面": {
         "recognition": {
@@ -102,14 +112,19 @@
         "recognition": {
             "type": "OCR",
             "param": {
-                "roi": [1048, 634, 205, 68],
+                "roi": [
+                    1048,
+                    634,
+                    205,
+                    68
+                ],
                 "expected": [
                     ".+领取"
                 ]
             }
         },
         "action": "Click",
-        "post_wait_freezes":1000,
+        "post_wait_freezes": 1000,
         "next": [
             "对策协议_每周任务"
         ],
@@ -144,14 +159,19 @@
         "recognition": {
             "type": "OCR",
             "param": {
-                "roi": [1048, 634, 205, 68],
+                "roi": [
+                    1048,
+                    634,
+                    205,
+                    68
+                ],
                 "expected": [
                     ".+领取"
                 ]
             }
         },
         "action": "Click",
-        "post_wait_freezes":1000,
+        "post_wait_freezes": 1000,
         "next": [
             "对策协议_挑战任务"
         ],
@@ -201,7 +221,7 @@
             }
         },
         "action": "Click",
-        "post_wait_freezes":1000,
+        "post_wait_freezes": 1000,
         "next": [
             "对策协议_检测等级奖励界面"
         ],
@@ -235,18 +255,43 @@
         "recognition": {
             "type": "OCR",
             "param": {
-                "roi": [1048, 634, 205, 68],
+                "roi": [
+                    1048,
+                    634,
+                    205,
+                    68
+                ],
                 "expected": [
                     ".+领取"
                 ]
             }
         },
+        "post_wait_freezes": 1000,
         "action": "Click",
         "next": [
             "直接返回主菜单"
         ],
         "interrupt": [
-            "关闭奖励通知"
+            "关闭奖励通知",
+            "关闭开通高级合约界面"
         ]
+    },
+    "关闭开通高级合约界面": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    302,
+                    556,
+                    173,
+                    62
+                ],
+                "expected": [
+                    "直接领取"
+                ]
+            }
+        },
+        "action": "Click",
+        "post_wait_freezes": 1000
     }
 }

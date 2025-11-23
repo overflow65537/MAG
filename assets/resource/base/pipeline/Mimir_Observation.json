@@ -191,7 +191,9 @@
             }
         },
         "pre_delay": 500,
-        "action": "Click"
+        "action": "Click",
+        "post_delay":5000,
+        "next":["领取演算奖励"]
     },
     "领取演算奖励": {
         "recognition": {

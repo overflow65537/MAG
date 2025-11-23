@@ -211,7 +211,7 @@
     },
     "选择刻印": {
         "recognition": {
-            "type": "TemplateMatch",
+            "type": "ColorMatch",
             "param": {
                 "roi": [
                     185,
@@ -219,12 +219,20 @@
                     120,
                     180
                 ],
-                "template": "战斗任务/选择刻印.png",
-                "threshold": [
-                    0.6
-                ]
+                "lower": [
+                    232,
+                    232,
+                    232
+                ],
+                "upper": [
+                    235,
+                    235,
+                    235
+                ],
+                "count": 500
             }
         },
+        "pre_wait_freezes": 3000,
         "action": {
             "type": "Custom",
             "param": {

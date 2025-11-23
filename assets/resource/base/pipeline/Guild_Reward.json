@@ -24,7 +24,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_wait_freezes":1000
     },
     //以下是常规每日补给部分
     "矩阵补给": {
@@ -238,7 +239,9 @@
                     "联合攻坚/奖励领取按钮.png"
                 ]
             }
-        }
+        },
+        "action":"Click",
+        "post_wait_freezes":500
     },
     //以下是公会任务部分
     "公会任务": {
@@ -256,7 +259,8 @@
                 ]
             }
         },
-        "action": "Click"
+        "action": "Click",
+        "post_wait_freezes": 1000
     },
     "领取公会任务奖励": {
         "recognition": {
