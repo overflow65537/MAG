@@ -33,4 +33,11 @@ jobs:
 
       - name: Check Resource
         run: |
-            python ./check_resource.py ./assets/resource/
+          for dir in ./assets/resource/*/; do
+            if [ -d "$dir/pipeline" ]; then
+              echo "Checking resource bundle: $dir"
+              python ./check_resource.py "$dir"
+            else
+              echo "Skipping $dir (not a resource bundle)"
+            fi
+          done

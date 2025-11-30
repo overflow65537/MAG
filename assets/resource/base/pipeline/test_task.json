@@ -67,6 +67,6 @@
                 ]
             }
         },
-        "post_wait_freeze": 1000
+        "post_wait_freezes": 1000
     }
 }
