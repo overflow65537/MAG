@@ -509,5 +509,15 @@
             }
         },
         "action": "Click"
+    },
+    "取消高价值任务刷新": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [250, 525, 284, 71],
+                "expected": ["取消"]
+            }
+        },
+        "action": "Click"
     }
 }
