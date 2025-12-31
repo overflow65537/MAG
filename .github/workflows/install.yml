@@ -215,7 +215,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: MFW-PyQt6-${{ matrix.platform }}-${{ matrix.arch }}
+          name: MAG-${{ matrix.platform }}-${{ matrix.arch }}
           path: "dist/MFW/"
 
 
