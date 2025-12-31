@@ -192,15 +192,15 @@ if os.path.isdir(maa_bin_internal):
 # 复制README和许可证
 shutil.copy(
     os.path.join(os.getcwd(), "README.md"),
-    os.path.join(os.getcwd(), "dist", "MFW", "MFW_README.md"),
+    os.path.join(os.getcwd(), "dist", "MFW", "README.md"),
 )
-shutil.copy(
+"""shutil.copy(
     os.path.join(os.getcwd(), "README-en.md"),
     os.path.join(os.getcwd(), "dist", "MFW", "MFW_README-en.md"),
-)
+)"""
 shutil.copy(
     os.path.join(os.getcwd(), "LICENSE"),
-    os.path.join(os.getcwd(), "dist", "MFW", "MFW_LICENSE"),
+    os.path.join(os.getcwd(), "dist", "MFW", "LICENSE"),
 )
 
 os.makedirs(os.path.join(os.getcwd(), "dist", "MFW", "app", "i18n"), exist_ok=True)
@@ -289,3 +289,28 @@ def generate_file_list(input_dir, output_file=None):
 generate_file_list(
     os.path.join("dist", "MFW"), os.path.join("dist", "MFW", "file_list.txt")
 )
+
+# === 转移maafw资源文件 ===
+# 复制 assets 文件夹内容到 dist/MFW
+assets_src = os.path.join(os.getcwd(), "assets")
+dist_mfw = os.path.join(os.getcwd(), "dist", "MFW")
+if os.path.exists(assets_src):
+    assets_items = os.listdir(assets_src)
+    if assets_items:
+        # 对每个项目单独检查，存在就跳过，不存在就复制
+        for item in assets_items:
+            src_item = os.path.join(assets_src, item)
+            dst_item = os.path.join(dist_mfw, item)
+            if os.path.exists(dst_item):
+                print(f"[INFO] {item} already exists in {dist_mfw}, skipping...")
+            else:
+                if os.path.isdir(src_item):
+                    shutil.copytree(src_item, dst_item)
+                    print(f"[INFO] Copied directory {item} to {dist_mfw}")
+                else:
+                    shutil.copy2(src_item, dst_item)
+                    print(f"[INFO] Copied file {item} to {dist_mfw}")
+    else:
+        print(f"[WARN] Assets folder is empty: {assets_src}")
+else:
+    print(f"[WARN] Assets folder not found: {assets_src}")
